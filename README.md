@@ -1,4 +1,4 @@
-# Taqueria Taco Shop Tutorial Project
+# Taqueria Hello Tacos Tutorial - Starter Project
 
 ## Overview
 
