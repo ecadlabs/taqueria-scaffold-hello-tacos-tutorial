@@ -20,7 +20,7 @@ const Wallet = ({
   const createWallet = (): BeaconWallet => {
     const walletOptions = {
       name: "Hello Tacos",
-      preferredNetwork: NetworkType.HANGZHOUNET
+      preferredNetwork: NetworkType.ITHACANET
     };
     return new BeaconWallet(walletOptions);
   };
