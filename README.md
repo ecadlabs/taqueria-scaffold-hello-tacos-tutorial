@@ -15,4 +15,4 @@ If you are looking for the completed project, you can find it here: [taqueria-sc
 
 ## Instructions
 
-Please visit the [Taqueria Hello Tacos Tutorial](https://taqueria.io/docs/hello-tacos-tutorial/) to get started
+Please visit the [Taqueria Hello Tacos Tutorial](https://taqueria.io/docs/hello-tacos-tutorial) to get started
