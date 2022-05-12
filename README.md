@@ -12,7 +12,12 @@ If you are looking for the completed project, you can find it here: [taqueria-sc
 - Node.js v16.x or later
 - Docker v0.8.x or later
 - Taqueria v0.3.x or later
+- Temple Wallet with an account on Ithacanet that has a positive balance
+
+## Tezos Network
+
+This project currently uses [Ithacanet](https://teztnets.xyz/ithacanet-about) as its Tezos network. The contract has been deployed to the address `KT1KBBk3PXkKmGZn3K6FkktqyPRpEbzJoEPE`
 
 ## Instructions
 
-Please visit the [Taqueria Hello Tacos Tutorial](https://taqueria.io/docs/hello-tacos-tutorial/) for instructions on how to get started
+Please visit the [Taqueria Hello Tacos Tutorial](https://taqueria.io/docs/hello-tacos-tutorial/) for step by step instructions on how to convert this project to a Taqueria project
