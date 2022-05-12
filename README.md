@@ -6,7 +6,7 @@ This project is a Taqueria scaffold for a starter project that is used in the [H
 
 If you are looking for the completed project, you can find it here: [taqueria-scaffold-taco-shop](https://github.com/ecadlabs/taqueria-scaffold-taco-shop)
 
-**If you are new to Taqueria, you should read the [Taqueria documentation](https:// please check out thetaqueria.io/docs/intro/)**
+**If you are new to Taqueria, you should read the [Taqueria documentation](https://taqueria.io/docs/intro/) first**
 
 ## Requirements
 - Node.js v16.x or later
