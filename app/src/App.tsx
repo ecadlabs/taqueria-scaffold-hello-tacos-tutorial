@@ -11,9 +11,9 @@ import "./styles/Footer.css";
 import "./styles/Wallet.css";
 
 function App() {
-  const [rpcUrl, setRpcUrl] = useState("https://hangzhounet.api.tez.ie");
+  const [rpcUrl, setRpcUrl] = useState("https://ithacanet.ecadinfra.com");
   const [contractAddress, setContractAddress] = useState(
-    "KT1C3dq9nqaTKFcbw8hdDFxsaqNruWdX6xde"
+    "KT1KBBk3PXkKmGZn3K6FkktqyPRpEbzJoEPE"
   );
   const [contractStorage, setContractStorage] = useState<number | undefined>(
     undefined
