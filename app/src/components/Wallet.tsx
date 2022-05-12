@@ -33,7 +33,7 @@ const Wallet = ({
       try {
         await w.requestPermissions({
           network: {
-            type: NetworkType.HANGZHOUNET,
+            type: NetworkType.ITHACANET,
             rpcUrl
           }
         });
