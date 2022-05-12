@@ -27,13 +27,12 @@ const Interface = ({
       !insufficientTacos
     ) {
       try {
-        throw new Error("Test error");
-        /*setOrderingTacos(true);
+        setOrderingTacos(true);
         const contract = await Tezos.wallet.at(contractAddress);
         const op = await contract.methods.default(tacosToOrder).send();
         await op.confirmation();
         setContractStorage(contractStorage - tacosToOrder);
-        setTacosToOrder(0);*/
+        setTacosToOrder(0);
       } catch (error) {
         console.error(error);
         setInsufficientTacos(false);
