@@ -9,10 +9,11 @@ If you are looking for the completed project, you can find it here: [taqueria-sc
 **If you are new to Taqueria, you should read the [Taqueria documentation](https://taqueria.io/docs/intro/) first**
 
 ## Requirements
-- Node.js v16.x or later
-- Docker v0.8.x or later
-- Taqueria v0.3.x or later
-- Temple Wallet with an account on Ithacanet that has a positive balance
+
+- Node.js v16 or later
+- Docker v0.8 or later
+- Taqueria v0.3.1 or later
+- [Temple Wallet](https://templewallet.com/) configured with a funded account on ithacanet
 
 ## Tezos Network
 
