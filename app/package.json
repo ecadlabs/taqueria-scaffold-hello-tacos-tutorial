@@ -19,6 +19,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "compile-contract": "ligo compile-contract ./contract/hello-tacos.mligo main",
+    "start-flextesa": "docker run --rm --name hangzhou-sandbox --detach -p 20000:20000 tqtezos/flextesa:20211119 hangzbox start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
