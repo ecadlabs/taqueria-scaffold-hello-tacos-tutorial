@@ -19,11 +19,13 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "compile-contract": "ligo compile-contract ./contract/hello-tacos.mligo main",
+    "compile-contract": "ligo compile-contract ../contract/hello-tacos.mligo main",
     "start-flextesa": "docker run --rm --name hangzhou-sandbox --detach -p 20000:20000 tqtezos/flextesa:20211119 hangzbox start",
+    "originate": "taq originate | tail -2 | head -1 | cut -d ' ' -f 4 | tee app/src/contract.txt && cp .taq/config.json app/src/",
+    "test": "jest ../tests/hello-tacos.test.js",
+    "ligo-test": "ligo run test ../contracts/hello-tacos-test.mligo",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
